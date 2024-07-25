@@ -1,0 +1,46 @@
+/* Styling for Passenger Details */
+
+.bill-container{
+    position: relative;
+    top: 120px;
+    background-color: white;
+}
+.passenger-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .passenger-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .passenger-details {
+    margin-top: 10px;
+  }
+  
+  .passenger-details p {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for Bus Details */
+  .bus-details-container {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .bus-details-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .bus-details {
+    margin-top: 10px;
+  }
+  
+  .bus-details p {
+    margin-bottom: 5px;
+  }
+  

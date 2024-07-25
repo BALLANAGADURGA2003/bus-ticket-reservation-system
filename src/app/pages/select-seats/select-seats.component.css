@@ -1,0 +1,141 @@
+.bus-details {
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bus-name {
+    font-weight: bold;
+  }
+
+  .bus-details h2{
+    margin: 0px 0px 10px 0px;
+    color:#333;
+    font-size: 24px;
+  }
+  
+  .details {
+    flex: 1;
+    font-size: 18px;
+    display: flex; /* Use flexbox */
+    align-items: center; 
+  }
+  
+  .details  div{
+    font-size: 16px;
+    color: #888;
+    margin-right: 30px;
+  }
+  
+  .seating-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width:250px;
+    height: 630px;
+    left:100px
+}
+
+.seating-container p{
+    margin: 10px;
+    margin-left:140px
+}
+
+.bus-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 50px; /* Width of each seat */
+    height: 80px; /* Height of each seat */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen; /* Available seat color */
+    border: 1px solid #ccc;
+    margin-left:15px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+.aisle {
+    width: 20px; /* Aisle width */
+    margin: 0px 5px;
+}
+
+.driver-text {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .seat {
+        width: 40px;
+        height: 80px;
+    }
+}
+
+.total{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:120px
+}
+.passenger-form {
+    float:right;
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .passenger-fields {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    margin-right: 10px;
+  }
+
+  .passenger-form h2{
+    margin:10px;
+  }
+  
+  /* Optional styling for input fields */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
